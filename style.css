@@ -4,7 +4,7 @@
 body{
     background-image: url(https://t4.ftcdn.net/jpg/01/84/78/31/360_F_184783181_lvqQFgW3q9ltsf8iVkavYKemAXSy1lFd.jpg);
     font-family: 'Knewave', cursive;
-
+text-align: center;
 }
 
 h1 {
@@ -31,6 +31,11 @@ h2 {
     margin-top: 30px;
 }
 
+#button-id {
+    width: 100%;
+}
+
+
 
 button {
     font-size: 2em;
@@ -38,7 +43,7 @@ button {
     background-color: yellow;
     border-radius: 5px;
     border: 1px solid red;
-    
+    text-align: center;
    
 }
 
@@ -74,6 +79,8 @@ main {
     background-color: yellow;
   }
 
+
+
   .player-card {
     display: flex;
     flex-wrap: wrap;
@@ -90,5 +97,5 @@ main {
     justify-content: center;
     font-size: 18px;
     margin: 2px;
-    background-color: rgb(240, 227, 218);
+    
   }
